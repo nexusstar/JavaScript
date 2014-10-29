@@ -8,11 +8,11 @@ This repo contains a number of questions short answers and exercises for JavaScr
   1. [Javascript Basics](#js-basics)
   
   
-####[[⬆]](#toc)<a name='js-basics'>JavaScript basics 1:</a>
+####[[⬆]](#toc) <a name='js-basics'>JavaScript core</a>
   
-  * [JS Introduction YouTube playlist (Bulgarian)](http://www.youtube.com/playlist?list=PLF4lVL1sPDSkkCHOq0pOI2wecYAlvoJbo)
-  * [JS 'Hello World'](JSIntroduction/JS.md#b1)
-  * [JS types](JSIntroduction/JS.md#b2)
-  * [Truthy vs Falsy] (JSIntroduction/JS.md#b3)
-  
-    [Comparing values](JSIntroduction/JS.md#b301)
+    [JS Introduction YouTube playlist (Bulgarian)](http://goo.gl/g5zfsj)
+
+  1. [JS 'Hello World'](CoreJavaScript/JS.md#b1)
+  1. [JS types](CoreJavaScript/JS.md#b2)
+  1. [Truthy vs Falsy](CoreJavaScript/JS.md#b3)
+  1. [Comparing values](JSIntroduction/JS.md#b301)

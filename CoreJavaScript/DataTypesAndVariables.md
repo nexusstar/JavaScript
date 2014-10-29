@@ -89,4 +89,8 @@ typeof(null); //returns 'object'
 Any JavaScript value that is not a number, string, boolean, null or undefined is an object.
 An object is a collection of properties where each property has name and a value.
 
+## Type Conversions
+
+
+
 ## Declaring and using variables
