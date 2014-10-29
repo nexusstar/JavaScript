@@ -39,3 +39,13 @@ The following values are always falsy:
 * NaN (not a number) 
 
 All other values are truthy including empty arrays and empty objects.
+
+
+#### Type conversions
+Some surprising conversions
+```javascript
+[1] - [2]       //=> -1 as Number
+'7' * 2         //=> 14 as Number
+[1] + [2]       //=> 12 as String
+{} + {}         //=> NaN in Chrome, '[object Object][object Object]' in node.js
+```
