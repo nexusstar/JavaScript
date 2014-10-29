@@ -49,3 +49,13 @@ Some surprising conversions
 [1] + [2]       //=> 12 as String
 {} + {}         //=> NaN in Chrome, '[object Object][object Object]' in node.js
 ```
+
+Numbers Conversion
+```javascript
+var valueDouble = 1.2;
+var valueInt = valueDouble | 0;         //=> 8
+var valueIntRounded = (valueDouble + 0.5) | 0;  //=> 9
+var valueString = '1234';
+var valueInt = parseInt(valueString);   //=> 1234
+var valueInt = valueString | 0;         //=> 1234
+```
