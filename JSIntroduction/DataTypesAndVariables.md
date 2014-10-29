@@ -4,11 +4,12 @@
 
 ### Primitive types
 
-Numbers, string, boolean, null, undefined
+Primitive types in JavaScript are
+numbers, string, boolean, null, undefined
 
 #### Numbers
 
-JavaScript does not make destinction between integer values and floating-point values.
+JavaScript does not make distinction between integer values and floating-point values.
 
 All numbers are represented as floating point values.
  
@@ -54,9 +55,38 @@ Pattern matching text between a pair of slashes constitutes a regular expression
 by one or more letters, which modify the meaning of the pattern.
 `/^HTML/i` 
 
+__JavaScript strings are immutable, and all string methods that appear to return a modified string are, in fact, returning a new string value.__
+
+```javascript
+var s = "hello";   // Start with some lowercase text
+s.toUpperCase();   // Returns "HELLO", but doesn't alter s
+s                  // => "hello": the original string has not changed
+```
+
+#### Boolean
+
+There are two reserved words `true` and `false`.
+
+Also any JavaScript value can be converted to a boolean value.
+The following values are false:
+
+` undefined , null, 0, -0, NaN, "" //empty string `
+
+All other values convert to and work like, true.
+
+
+#### null and undefined
+
+`null` is a language keyword that evaluates to a special value that is usually used to indicate the absence of a value.
+```javascript
+typeof(null); //returns 'object'
+```
+`undefined` represent a deeper kind of absence. It is the value of a variables that haven ot been initialized and the value you get when you query the value of an object property or array element that does not exist.. 
+
+
 ### Object types
 
-Any JavaScript value that is not a number, string, boolean or null or undefined is an object.
+Any JavaScript value that is not a number, string, boolean, null or undefined is an object.
 An object is a collection of properties where each property has name and a value.
 
 ## Declaring and using variables
