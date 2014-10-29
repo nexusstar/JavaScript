@@ -91,6 +91,26 @@ An object is a collection of properties where each property has name and a value
 
 ## Type Conversions
 
+JavaScript converts the type of values it requires.
 
+If boolean value is expected JavaScript will convert it as needed.
+Truthy values convert to true falsy values convert to false.
+
+If Javascript wants a string, it will convert whatever value you give it to a string.
+
+```javascript
+10 + " objects"     // => "10 objects".  Number 10 converts to a string
+[] + []             //=> "" . Empty string
+[1] + [2]           //=> "12" Number 1 as string concatenated with Number 2 as string
+{} + {}             //=> NaN in Chrome, '[object Object][object Object]' in node.js
+```
+
+If JavaScript wants a number, it will try to convert the value to a number or NaN.
+
+```javascript
+'7' * '3'           // => 21 as Number
+var n = 1 - "x";    // => NaN: string "x" can't convert to a number
+n + " objects"      // => "NaN objects": NaN converts to string "NaN"
+```
 
 ## Declaring and using variables

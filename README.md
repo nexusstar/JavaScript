@@ -5,10 +5,10 @@ This repo contains a number of questions short answers and exercises for JavaScr
   
 ##<a name='toc'>Table of Contents</a>
 
-  1. [Javascript Basics](#js-basics)
+  1. [Javascript Introduction](#js-basics)
   
   
-####[[⬆]](#toc) <a name='js-basics'>JavaScript core</a>
+####[[⬆]](#toc) <a name='js-basics'></a>JavaScript core introduction
   
     [JS Introduction YouTube playlist (Bulgarian)](http://goo.gl/g5zfsj)
 
