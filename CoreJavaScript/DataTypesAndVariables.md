@@ -113,4 +113,19 @@ var n = 1 - "x";    // => NaN: string "x" can't convert to a number
 n + " objects"      // => "NaN objects": NaN converts to string "NaN"
 ```
 
+Object to primitive conversions
+
+Object-to-boolean: all objects convert to `true`
+
+__Object-to-string and Object-to-number are performed by invoking a method of the object.__
+
+`toString()` - returns string representation of the object
+```javascript
+({a:1, b:2}).toString()       //=>'[object Object]'
+['a','b','c'].toString()     //=>"a,b,c"
+[1,2,3].toString()          //=>"1,2,3"
+```
+
+
+
 ## Declaring and using variables
