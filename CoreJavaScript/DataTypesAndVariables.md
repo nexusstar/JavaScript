@@ -19,6 +19,19 @@ Operations in JavaScript (such as array indexing and the bitwise operators) are 
 
 Arithmetic in JavaScript does not raise errors in cases of overflow, underflow, or division by zero. When the result of a numeric operation is larger than the largest representable number (overflow), the result is a special infinity value, which JavaScript prints as Infinity.
 
+Numbers Conversion
+
+```javascript
+
+var valueDouble = 1.2;
+var valueInt = valueDouble | 0;         //=> 8
+var valueIntRounded = (valueDouble + 0.5) | 0;  //=> 9
+var valueString = '1234';
+var valueInt = parseInt(valueString);   //=> 1234
+var valueInt = valueString | 0;         //=> 1234
+
+```
+
 #### String
 
 JavaScript uses the UTF-16 encoding of the Unicode character set, and JavaScript strings are sequences of unsigned 16-bit values.
@@ -102,7 +115,7 @@ If Javascript wants a string, it will convert whatever value you give it to a st
 10 + " objects"     // => "10 objects".  Number 10 converts to a string
 [] + []             //=> "" . Empty string
 [1] + [2]           //=> "12" Number 1 as string concatenated with Number 2 as string
-{} + {}             //=> NaN in Chrome, '[object Object][object Object]' in node.js
+{} + {}             //=> NaN in Chrome V8 engine, '[object Object][object Object]' in node.js
 ```
 
 If JavaScript wants a number, it will try to convert the value to a number or NaN.
@@ -121,11 +134,9 @@ __Object-to-string and Object-to-number are performed by invoking a method of th
 
 `toString()` - returns string representation of the object
 ```javascript
-({a:1, b:2}).toString()       //=>'[object Object]'
-['a','b','c'].toString()     //=>"a,b,c"
+({a:1, b:2}).toString()      //=>'[object Object]'
+['a','b','c'].toString()    //=>"a,b,c"
 [1,2,3].toString()          //=>"1,2,3"
 ```
-
-
 
 ## Declaring and using variables
