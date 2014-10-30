@@ -21,16 +21,16 @@ Arithmetic in JavaScript does not raise errors in cases of overflow, underflow, 
 
 Numbers Conversion
 
-```javascript
+   ```javascript
 
-var valueDouble = 1.2;
-var valueInt = valueDouble | 0;         //=> 8
-var valueIntRounded = (valueDouble + 0.5) | 0;  //=> 9
-var valueString = '1234';
-var valueInt = parseInt(valueString);   //=> 1234
-var valueInt = valueString | 0;         //=> 1234
+   var valueDouble = 1.2;
+   var valueInt = valueDouble | 0;         //=> 8
+   var valueIntRounded = (valueDouble + 0.5) | 0;  //=> 9
+   var valueString = '1234';
+   var valueInt = parseInt(valueString);   //=> 1234
+   var valueInt = valueString | 0;         //=> 1234
 
-```
+   ```
 
 #### String
 
@@ -139,4 +139,27 @@ __Object-to-string and Object-to-number are performed by invoking a method of th
 [1,2,3].toString()          //=>"1,2,3"
 ```
 
+`valueOf()` - supposedly convert an object to a primitive value that represent the object if it exist.
+```javascript
+({a:1, b:2}).valueOf();      //=> Object {a: 1, b: 2}
+['a','b','c'].valueOf();    //=> ["a", "b", "c"]
+[1,2,3].valueOf();          //=> [1, 2, 3]
+```
+
 ## Declaring and using variables
+
+Variables are declared with `var` keyword
+```javascript
+var a;
+var b;
+var c, d, e;
+
+//mix declaration with initialization
+var f = 0, g = 1, i =2;
+```
+
+In non strict mode if value is assigned to an undeclared variable JavaScript creates that variable as property of global object.
+
+## Function Scope and Hoisting
+
+JavaScript uses function scope: variables are visible throughout the body of the function;

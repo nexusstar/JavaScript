@@ -48,6 +48,7 @@ Some surprising conversions
 '7' * 2         //=> 14 as Number
 [1] + [2]       //=> 12 as String
 {} + {}         //=> NaN in Chrome, '[object Object][object Object]' in node.js
+Number([""]);   //=> 0 as a number;
 ```
 
 Numbers Conversion
