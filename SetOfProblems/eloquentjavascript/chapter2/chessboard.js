@@ -3,7 +3,7 @@
  *    there is either a space or a “#” character.
  *    The characters should form a chess board.
  */
-var size = 10;
+var size = 4;
 var output = '';
 
 //stright
@@ -14,6 +14,15 @@ for (var l = 0; l < size; l++){
         } else{
             (c % 2 === 0)? output += ' ' : output += '#';
         }
+    }
+    output += '\n';
+}
+
+// better
+for(var row = 0; row < size; row ++){
+    for(var col = 0; col< size; col++){
+
+        ((row + col) % 2 === 0 )? output += ' ': output += '#';
     }
     output += '\n';
 }
