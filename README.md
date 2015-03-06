@@ -3,7 +3,7 @@
 This repo contains a number of questions short answers and exercises for JavaScript.
 **Note:** Feel free to submit a pull request if you think that something is wrong or could be improved.
   
-##<a name='toc'>Table of Contents</a>
+##Table of Contents
 
   1. [Javascript Introduction](#js-basics)
   
