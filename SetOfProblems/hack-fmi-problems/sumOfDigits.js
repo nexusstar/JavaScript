@@ -3,6 +3,7 @@
  * Given an integer, implement a function, called `sumOfDigits(n)` that calculates the sum of the digits of n.
  * If a negative number is given, the function should work as if it was positive.
  */
+"use strict";
 
 var sumOfDigits = function(n){
     var sum = 0;
@@ -17,3 +18,28 @@ var sumOfDigits = function(n){
     }
     return sum;
 };
+
+var sumOfDigitsTwo = function(n){
+   var sum = 0, currentDigit;
+
+   return sum;
+};
+
+var sumOfDigitsThree = function(n){
+    var sum = 0;
+    forEach(n.toString().split(''), function(number){
+        number *= 1;
+        if (number === number){
+            sum += number;
+        }
+    });
+    return sum;
+};
+
+
+//global Methods
+function forEach(array, action){
+    for (var i = 0; i<array.length; i++){
+        action(array[i]);
+    }
+}
