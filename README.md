@@ -20,5 +20,8 @@ This repo contains a number of questions short answers and exercises for JavaScr
 1. Resources
 
    Books:
+
 Learning JavaScript Design Patterns
         [Learning JavaScript Design Patterns] (http://addyosmani.com/resources/essentialjsdesignpatterns/book/)
+
+ [Eloquent java script](http://eloquentjavascript.net/)
