@@ -16,3 +16,9 @@ This repo contains a number of questions short answers and exercises for JavaScr
   1. [JS types](CoreJavaScript/JS.md#b2)
   1. [Truthy vs Falsy](CoreJavaScript/JS.md#b3)
   1. [Comparing values](JSIntroduction/JS.md#b301)
+
+1. Resources
+
+   Books:
+Learning JavaScript Design Patterns
+        [Learning JavaScript Design Patterns] (http://addyosmani.com/resources/essentialjsdesignpatterns/book/)
