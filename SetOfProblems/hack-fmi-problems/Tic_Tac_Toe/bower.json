@@ -1,0 +1,16 @@
+{
+  "name": "tic_tac_toe",
+  "version": "0.0.1",
+  "authors": [
+    "Petar Nikov <petar.nikov@gmail.com>"
+  ],
+  "description": "Simple Tic Tac Toe game",
+  "main": "game.js",
+  "keywords": [
+    "game",
+    "learn",
+    "javascript"
+  ],
+  "license": "MIT",
+  "private": true
+}

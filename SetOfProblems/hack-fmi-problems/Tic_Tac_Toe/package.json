@@ -1,0 +1,19 @@
+{
+  "name": "tic-tac-toe",
+  "version": "0.0.1",
+  "description": "Simple Tic Tac Toe game",
+  "main": "game.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
+  "keywords": [
+    "game",
+    "lear",
+    "javascript"
+  ],
+  "author": "NexusStar",
+  "dependencies": {
+    "prompt": "^0.2.14"
+  }
+}
