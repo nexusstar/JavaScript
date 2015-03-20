@@ -10,10 +10,12 @@
 "use strict";
 
 var sumOfMinAndMax = function (arr){
-    if (arr.length === 0)
-        return NaN;
+    if (arr.length === 0){
+        return 'Error: empty array';
+    }
 
-    var min, max = arr[0];
+    var min = arr[0],
+        max = arr[0];
 
     for(var i = 0, l = arr.length; i < l; i++){
         if( arr[i] < min ){

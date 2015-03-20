@@ -4,10 +4,16 @@
 
 "use strict";
 
-var sumOfMinAndMax = require('./SumOfMinAndMax').sumOfMinAndMax;
+var sumOfMinAndMax = require('./sumOfMinAndMax').sumOfMinAndMax;
 
-exports.sumTestEmptyArray = function(test){
+exports.sumTesEmptyArray = function(test){
     debugger;
-    test.equal(NaN, sumOfMinAndMax([]));
+    test.equal('Error: empty array', sumOfMinAndMax([]));
+    test.done();
+};
+
+exports.sumTestOne = function(test){
+    debugger;
+    test.equal(10, sumOfMinAndMax([1,2,3,4,5,6,7,8,9]));
     test.done();
 };
