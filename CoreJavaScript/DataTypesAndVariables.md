@@ -94,7 +94,7 @@ All other values convert to and work like, true.
 ```javascript
 typeof(null); //returns 'object'
 ```
-`undefined` represent a deeper kind of absence. It is the value of a variables that haven ot been initialized and the value you get when you query the value of an object property or array element that does not exist.. 
+`undefined` represent a deeper kind of absence. It is the value of a variables that haven or been initialized and the value you get when you query the value of an object property or array element that does not exist.. 
 
 
 ### Object types
