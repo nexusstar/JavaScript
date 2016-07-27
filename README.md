@@ -19,7 +19,9 @@ Initially I use it as learning notes but now is more a personal notebook.
 ## Books:
 
 [Eloquent java script](http://eloquentjavascript.net/)
+
 [Exploring ES6]( http://exploringjs.com/es6/index.html#toc_ch_foreword )
+
 [Learning JavaScript Design Patterns] (http://addyosmani.com/resources/essentialjsdesignpatterns/book/)
 
 ## Videos
