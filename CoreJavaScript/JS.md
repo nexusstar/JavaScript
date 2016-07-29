@@ -27,6 +27,11 @@ _aritmitic expression_ `boo + 1`
 
 _assignment expression_ `foo = boo + 1;` and also a statement
 
+### Operators
+
+There are more than 30 operators in [ JS ](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators)
+
+
 ### Types and values
 
 * JavaScript have primitive types and object types
@@ -53,10 +58,15 @@ typeof(null); //-> "object"
 ```javascript
 typeof(undefined); //-> "undefined"
 ```
+## Conditional Statements
+
+```JavaScript
+if(condition){ /*something*/}
+```
 
 ### Truthy and Falsy values
 
-The following values are always falsy:
+The following values are always _falsy_:
 
 * `false`
 * `0` (zero)
@@ -65,7 +75,7 @@ The following values are always falsy:
 * `undefined`
 * `NaN` (not a number)
 
-All other values are truthy including empty arrays and empty objects.
+_All other values are truthy including empty arrays and empty objects._
 
 
 ### Type conversions

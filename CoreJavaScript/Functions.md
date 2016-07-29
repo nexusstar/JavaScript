@@ -31,6 +31,18 @@ console.log(typeof x); // "function"
 
 __This means that functions can be passed as arguments to other functions and returned as results from functions.__
 
+When we declare the function we use _parameters_ to specify function vars. And passing  _arguments_ when we call a function.
+
+We could pass function as arugument to a function. There is a difference do we pass the return value of a function (do we call it) or the function e.g.
+
+```JavaScript
+
+foo( bar ); // pass function as argument
+
+foo( bar() ) // pass return value as argument
+
+```
+
 ### Higher-order functions
 
 Having first-class functions, we can make higher-order functions.
