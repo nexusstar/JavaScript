@@ -1,4 +1,4 @@
-#JavaScript short
+# JavaScript short
 
 ### Hello world JS style
 
@@ -8,6 +8,25 @@
     document.write('Hello World');
     console.log('Hello World');
 ```
+* Statements - set of words and symbols that express single idea
+
+```javascript
+foo = boo + 1;
+```
+that is assignment statement.
+
+RHS is the source and LHS is the target.
+
+* Expressions - are the composition part of statements
+
+_literal value expresion_ `2`
+
+_indentifier expression_ `boo`
+
+_aritmitic expression_ `boo + 1`
+
+_assignment expression_ `foo = boo + 1;` and also a statement
+
 ### Types and values
 
 * JavaScript have primitive types and object types
