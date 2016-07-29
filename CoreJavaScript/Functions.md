@@ -43,6 +43,13 @@ foo( bar() ) // pass return value as argument
 
 ```
 
+### Scope
+
+Hoisting is JavaScript's default behaviour of moving all declarations to the top of the current scope
+JS has functional scope. That means that whenever declaration was not found in current function
+program searches in parent and in its parent until declaration was found if not found is thrown
+Reference error exception.
+
 ### Higher-order functions
 
 Having first-class functions, we can make higher-order functions.
