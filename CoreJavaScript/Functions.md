@@ -84,3 +84,6 @@ forEach([1,3,4],print);
 
 In JavaScript, we have `forEach`, `map`, `filter`, `reduce` and many other high-order functions, which gives us more expressive power and more abstraction over dealing with collections.
 
+## Prototype
+
+A function's prototype: A function's prototype is the object instance that will become the prototype for all objects created using this function as a constructor.
