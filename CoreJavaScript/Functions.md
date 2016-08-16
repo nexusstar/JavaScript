@@ -42,8 +42,33 @@ foo( bar ); // pass function as argument
 foo( bar() ) // pass return value as argument
 
 ```
+## Arguments
 
-### Scope
+__Function arguments are not required__
+
+* All arguments are untyped 
+* Like all variables in JS arguments are untyped
+* Unspecified arguments become undefined
+* Arguments are available through the `arguments` object
+
+```JavaScript
+    function sum( a, b, c ){
+      return a + b + c;
+    }
+    console.log( sum(1,2,3));
+    console.log( sum (1,2));
+    console.log( sum(1,2,3,4));
+
+    function sum(){
+      var sum = 0;
+      for ( var i = 0; i < arguments.length; i++ ){
+        sum = sum + arguments[i];
+      }
+      return sum;
+    }
+```
+
+## Scope
 
 Hoisting is JavaScript's default behaviour of moving all declarations to the top of the current scope
 JS has functional scope. That means that whenever declaration was not found in current function
