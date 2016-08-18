@@ -16,9 +16,16 @@ for (var i = 0; i < 100; i++)
     } else if ( i % 5 === 0 ){
         console.log("buzz");
     } else {
-        console.log(i);
+        console.log(i)
     }
 }
 
+// paulirish
+for (var i = 1; i <= 100; i++) {
+  var f = i % 3 == 0, b = i % 5 == 0;
+  console.log(f ? b ? "FizzBuzz" : "Fizz" : b ? "Buzz" : i);
+}
 
-
+// mobz
+// smallest?
+for(i=0;i<100;)console.log((++i%3?'':'Fizz')+(i%5?'':'Buzz')||i)
